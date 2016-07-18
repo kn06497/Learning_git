@@ -1,0 +1,5 @@
+Descomprime las sources de uber en rebuilts/gcc/linux-x86/arm y ponle el nombre de arm-linux-androideabi-4.9-uber
+Sigue mis pasos aprendiz (?
+Luego ve a build/core/combo/TARGET_linux_arm.mk
+Y busca la linea $(combo_2nd_arch_prefix)TARGET_GCC_VERSION := 4.9
+Cuando la encuentres cambia el 4.9 por 4.9-uber
